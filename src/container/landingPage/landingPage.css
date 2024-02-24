@@ -1,0 +1,76 @@
+
+.app-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("../../assets/Pizza-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Great Vibes", cursive;
+}
+
+
+.banner-text h1 {
+    font-size: 130px;
+    background: radial-gradient(circle, rgba(241, 177, 125, 1) 0%, rgba(206, 51, 34, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.banner-text h2 {
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.banner-text h3 {
+    font-size: 30px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.banner-text button {
+    background: #df6255;
+    font-size: large;
+    margin: 30px;
+}
+
+.place-order {
+    background: #00000026;
+    padding: 50px;
+    margin-right: 100px;
+    position: relative;
+}
+
+.order-stages {
+    background: #00000026;
+    text-align: center;
+}
+
+.order-stages h1 {
+    font-size: 40px;
+    color: #df6255;
+}
+
+.order-stages h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.order-stages hr {
+    border-bottom-width: medium;
+    border-color: #0000001f;
+}
+
+.order-stages .order-grid {
+    height: 500px;
+    width: 1200px;
+    overflow: scroll;
+}
